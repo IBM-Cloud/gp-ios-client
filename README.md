@@ -9,6 +9,9 @@ Bluemix service. The IBM Globalization Pipeline makes it easy for you to provide
 
 Adding this framework into your Swift or Obj-C project, your application can dynamically request translations of your application content from the IBM Globalization Pipeline.
 
+Note that this framework implements HTTP Basic authentication, which means that a “reader” credential must be used.
+Other credential classes will be rejected by the server.
+
 ## Getting started
 
 ### Set up the Globalization Pipeline service
