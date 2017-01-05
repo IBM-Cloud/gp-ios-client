@@ -12,6 +12,8 @@ Adding this framework into your Swift or Obj-C project, your application can dyn
 Note that this framework implements HTTP Basic authentication, which means that a “reader” credential must be used.
 Other credential classes will be rejected by the server.
 
+[![Build Status](https://travis-ci.org/IBM-Bluemix/gp-ios-client.svg?branch=master)](https://travis-ci.org/IBM-Bluemix/gp-ios-client)
+
 ## Getting started
 
 ### Set up the Globalization Pipeline service
