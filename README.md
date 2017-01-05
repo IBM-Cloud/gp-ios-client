@@ -42,6 +42,33 @@ be used for display.
 
 ![Sample Output](sample.png "Example Output of the SDK Test")
 
+## Using with your own project
+
+### Manual
+
+1. Clone or download the SDK repository locally
+2. Drag the [GPSDK/GPSDK.xcodeproj](GPSDK/GPSDK.xcodeproj) file into your own XCode workspace
+3. Change the Scheme to _GPSDK_ and build it in your own XCode workspace
+4. Change the Scheme back to your application's Scheme. Verify that build works.
+
+### Carthage
+
+1. Install [Carthage](https://github.com/Carthage/Carthage)
+2. add/create a [`Cartfile`](https://github.com/Carthage/Carthage/blob/master/Documentation/Artifacts.md#cartfile) containing the following (replace `master` with a [version number](https://github.com/IBM-Bluemix/gp-ios-client/releases) if desired)
+
+```
+     github "IBM-Bluemix/gp-ios-client" "master"
+```
+
+3. Run `carthage update`
+4. You should now be able to add `Carthage/Build/iOS/GPSDK.framework` to your own project’s linked frameworks.
+5. See the [Carthage documentation](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application) for more detail. In particular, you will need to add or update a `copy-frameworks` step with the following input file:
+
+```
+     $(SRCROOT)/Carthage/Build/iOS/GPSDK.framework
+```
+
+
 ## Sample Code
 
 Note: the first four parameters to `initService()` are your Globalization Pipeline
