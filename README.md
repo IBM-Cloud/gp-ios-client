@@ -54,10 +54,10 @@ be used for display.
 ### Carthage
 
 1. Install [Carthage](https://github.com/Carthage/Carthage)
-2. add/create a [`Cartfile`](https://github.com/Carthage/Carthage/blob/master/Documentation/Artifacts.md#cartfile) containing the following (replace `master` with a [version number](https://github.com/IBM-Bluemix/gp-ios-client/releases) if desired)
+2. add/create a [`Cartfile`](https://github.com/Carthage/Carthage/blob/master/Documentation/Artifacts.md#cartfile) containing the following
 
 ```
-     github "IBM-Bluemix/gp-ios-client" "master"
+     github "IBM-Bluemix/gp-ios-client"
 ```
 
 3. Run `carthage update`
