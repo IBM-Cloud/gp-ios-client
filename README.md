@@ -14,6 +14,8 @@ Other credential classes will be rejected by the server.
 
 [![Build Status](https://travis-ci.org/IBM-Bluemix/gp-ios-client.svg?branch=master)](https://travis-ci.org/IBM-Bluemix/gp-ios-client)
 
+See [this blog post](https://srl295.github.io/2017/01/06/g11n-pipeline-ios/) for a tutorial on using this SDK.
+
 ## Getting started
 
 ### Set up the Globalization Pipeline service
