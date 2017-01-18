@@ -149,7 +149,7 @@ label2.text = service.localizedString("Key2", "Hello world")
 ## Community
 
 * View or file GitHub [Issues](https://github.com/IBM-Bluemix/gp-ios-client/issues)
-* Connect with the open source community on [developerWorks Open](https://developer.ibm.com/open/ibm-bluemix-globalization-pipeline/)
+* Connect with the open source community on [developerWorks Open](https://developer.ibm.com/open/openprojects/ibm-bluemix-globalization-pipeline/ios-sdk/)
 
 ## Contributing
 
